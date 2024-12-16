@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="body-container w-full h-[100vh] flex items-center flex-col justify-center bg-[black]">
+        <div class="steps-container w-[45%] flex justify-between relative items-center mb-20">
+            <div class="outer-circle w-[30px] h-[30px] rounded-full bg-[green] flex justify-center items-center z-10">
+                <div class="inner-circle w-[23px] h-[23px] bg-white rounded-full flex justify-center items-center">
+                    <i class="ri-check-line text-[green] text-xl"></i>
+                    <i class="ri-close-line hidden"></i>
+                </div>
+            </div>
+            <div
+                class="outer-circle w-[30px] h-[30px] rounded-full bg-[rgb(211,211,211)] flex justify-center items-center z-10 transition-all duration-1000 ease-out">
+                <div class="inner-circle w-[23px] h-[23px] bg-white rounded-full flex justify-center items-center">
+                    <i class="ri-close-line text-xl text-[gray]"></i>
+                </div>
+            </div>
+            <div
+                class="outer-circle w-[30px] h-[30px] rounded-full bg-[rgb(211,211,211)] flex justify-center items-center z-10 transition-all duration-1000 ease-out">
+                <div class="inner-circle w-[23px] h-[23px] bg-white rounded-full flex justify-center items-center">
+                    <i class="ri-close-line text-xl text-[gray]"></i>
+                </div>
+            </div>
+            <div
+                class="outer-circle w-[30px] h-[30px] rounded-full bg-[rgb(211,211,211)] flex justify-center items-center z-10 transition-all duration-1000 ease-out">
+                <div class="inner-circle w-[23px] h-[23px] bg-white rounded-full flex justify-center items-center">
+                    <i class="ri-close-line text-xl text-[gray]"></i>
+                </div>
+            </div>
+            <div
+                class="outer-circle w-[30px] h-[30px] rounded-full bg-[rgb(211,211,211)] flex justify-center items-center z-10 transition-all duration-1000 ease-out">
+                <div class="inner-circle w-[23px] h-[23px] bg-white rounded-full flex justify-center items-center">
+                    <i class="ri-close-line text-xl text-[gray]"></i>
+                </div>
+            </div>
+            <div class=" w-[99%] left-[1%] bg-[rgb(211,211,211)] h-[7px] absolute rounded-full">
+                <div class="w-[2%] transition-all duration-700 ease-out h-full bg-[green]" id="progress"></div>
+            </div>
+        </div>
+
+        <div class="buttons-container flex gap-10 text-white">
+            <button id="left-arrow" class="bg-[gray] px-5 text-2xl py-2"><i class="ri-arrow-left-line"></i></button>
+            <button id="right-arrow" class="bg-[green] px-5 text-2xl py-2"><i class="ri-arrow-right-line"></i></button>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
